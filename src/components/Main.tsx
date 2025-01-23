@@ -1,9 +1,9 @@
-"use client"; 
+"use client";
 
 import React from "react";
 import Image from "next/image";
 
-export default function Main() {
+export default function Page() {
   return (
     <section className="bg-gray-900 text-white min-h-screen flex items-center justify-center px-6 md:px-16">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-5xl">
@@ -11,14 +11,13 @@ export default function Main() {
         <div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Fareeha</h1>
           <p className="text-gray-400 mb-8">
-
-✨ Welcome to My Portfolio! 🚀
-
-I'm a passionate Next.js Developer creating lightning-fast, scalable, and user-friendly websites.
-
-Explore my projects, skills, and expertise that bring innovative ideas to life. Let's build something amazing together! 💻💡
+            ✨ Welcome to My Portfolio! 🚀
+            <br />
+            I&#39;m a passionate Next.js Developer creating lightning-fast, scalable, and user-friendly websites.
+            <br />
+            Explore my projects, skills, and expertise that bring innovative ideas to life. Let&#39;s build something amazing together! 💻💡
           </p>
-         <h2 className="text-yellow-500">Scroll down plz</h2>
+          <h2 className="text-yellow-500">Scroll down plz</h2>
         </div>
 
         {/* Image Section */}

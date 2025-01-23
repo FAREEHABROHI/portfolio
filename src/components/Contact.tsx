@@ -1,5 +1,4 @@
-"use client";
-import Link from "next/link";
+"use client"
 import React from "react";
 
 const Contact = () => {
